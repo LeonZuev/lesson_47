@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class CalculatorTests {
 
   @Test
-  public void Add_2Plus5_7Returned() {
+  public void AddPositiveIntegers() {
 
   }
 }
