@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BooksRunner {
+
   // Используйте класс `Book` (книга) из предыдущего домашнего задания.
   //
   // Создайте компаратор, который позволит сортировать книги по названию,
@@ -16,7 +17,7 @@ public class BooksRunner {
     books.add(new Book("Вторая", "Кто-то", 254));
 
     books.sort(new BookTitleAuthorComparator());
-    for (Book b: books) {
+    for (Book b : books) {
       System.out.println(b);
     }
   }
