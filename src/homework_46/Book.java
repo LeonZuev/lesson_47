@@ -24,6 +24,16 @@ public class Book {
   }
 
   @Override
+  public boolean equals(Object obj) {
+    if (this == obj) {
+      return true;
+    }
+    if(!(obj instanceof Book other)) {
+      return false;
+    }
+  }
+
+  @Override
   public int compareTo(Book o) {
     if(!author.equals(o.author)) {
       return author.compareTo(o.author);
